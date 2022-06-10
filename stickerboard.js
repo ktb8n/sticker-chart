@@ -4,7 +4,7 @@ function Article(props){
     return (<>
         <article>
             <PlusMinus section="article" handle={props.handle}/>
-            <div className="stickerboard">Sticker Board:{props.data.article}</div>
+            <div className="stickerboard, section">Sticker Board:{props.data.article}</div>
             <Stickers data={props.data}/>
         </article>
     </>);
