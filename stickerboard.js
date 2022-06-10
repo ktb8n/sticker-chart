@@ -2,10 +2,10 @@
 
 function Article(props){
     return (<>
-        <artcle>
+        <article>
             <PlusMinus section="article" handle={props.handle}/>
-            <div className="section">Artcle:{props.data.article}</div>
-            <Data data={props.data}/>
-        </artcle>
+            <div className="stickerboard">Sticker Board:{props.data.article}</div>
+            <Stickers data={props.data}/>
+        </article>
     </>);
 }
