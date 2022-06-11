@@ -5,7 +5,7 @@ function Header(props) {
 		<>
 			<header>
 				<PlusMinus section='header' handle={props.handle} />
-				<div className='header, section'>Footer:{props.data.header}</div>
+				<div className='section'>Header:{props.data.header}</div>
 				<Data data={props.data} />
 			</header>
 		</>

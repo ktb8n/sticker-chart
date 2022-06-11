@@ -16,9 +16,9 @@ function PlusMinus(props){
 function Data(props){
     return(<div>
         Header: {props.data.header},
-        LeftEnterTask: {props.data.left},
+        Left: {props.data.left},
         Article: {props.data.article},
-        RightSuccessCalendar: {props.data.right},
+        Right: {props.data.right},
         Footer: {props.data.footer}
     </div>)
 }
@@ -38,9 +38,9 @@ function App(){
     return(<>
         <div className="grid">
             <Header               handle={handle} data={data}/>
-            <LeftEnterTask        handle={handle} data={data}/>
+            <Left                 handle={handle} data={data}/>
             <Article              handle={handle} data={data}/>
-            <RightSuccessCalendar handle={handle} data={data}/>
+            <Right                handle={handle} data={data}/>
             <Footer               handle={handle} data={data}/>
         </div>
     </>);

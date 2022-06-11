@@ -26,6 +26,7 @@ article{
 
 header, footer{
     background-color: lightblue;
+    grid-column: 1 / 4;
 }
 
 body{

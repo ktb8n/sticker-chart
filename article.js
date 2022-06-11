@@ -4,8 +4,8 @@ function Article(props){
     return (<>
         <article>
             <PlusMinus section="article" handle={props.handle}/>
-            <div className="stickerboard, section">Sticker Board:{props.data.article}</div>
-            <Stickers data={props.data}/>
+            <div className="section">Sticker Board:{props.data.article}</div>
+            <Data data={props.data}/>
         </article>
     </>);
 }
