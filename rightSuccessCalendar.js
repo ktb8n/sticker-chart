@@ -1,6 +1,6 @@
 //shows boxes that correlate to frequency of tasks per time (set according to user eventually - but sorta like githubs)
 
-function rightSuccessCalendar(props) {
+function RightSuccessCalendar(props) {
 	return (
 		<>
 			<aside>
