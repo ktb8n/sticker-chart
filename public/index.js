@@ -7,8 +7,8 @@ function PlusMinus(props){
         props.handle({name:props.section, value:1});
     }
     return (<>
-        <img src={`icons/${props.section}_plus.png}`} id="plus" onClick={((e)=> handle(e))}/>
-        <img src={`icons/${props.section}_minus.png}`} id="minus" onClick={((e)=> handle(e))}/>
+        <img src={`icons/${props.section}_plus.png`} id="plus" onClick={((e)=> handle(e))}/>
+        <img src={`icons/${props.section}_minus.png`} id="minus" onClick={((e)=> handle(e))}/>
         </>);
 
 }
